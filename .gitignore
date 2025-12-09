@@ -1,0 +1,27 @@
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# __pycache__ y compilados
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Entorno virtual
+gpu_env311/
+
+# Archivos de modelo grande
+*.gguf
