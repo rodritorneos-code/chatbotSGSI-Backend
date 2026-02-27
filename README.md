@@ -24,7 +24,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 python -m pip install --upgrade pip
 
 ## 2️⃣ Instalar dependencias principales
-# Framework web y servidor ASGI
+### Framework web y servidor ASGI
 pip install fastapi uvicorn requests
 
 ### Librerías de audio
@@ -37,7 +37,7 @@ python -m unidic download
 ### Text-to-Speech opcional
 pip install git+https://github.com/myshell-ai/MeloTTS.git
 
-💡 Nota: Ajusta las dependencias según tus necesidades de procesamiento o TTS.
+### 💡 Nota: Ajusta las dependencias según tus necesidades de procesamiento o TTS.
 
 ## 3️⃣ Instalar llama-cpp con soporte CUDA
 Descarga la versión precompilada de llama-cpp con soporte CUDA 12.8:
@@ -53,20 +53,20 @@ python -c "from llama_cpp import Llama; print('llama_cpp loaded successfully!')"
 python test_gpu.py
 
 ## Alternativa
-💡 Modo CPU:
+### 💡 Modo CPU:
 pip install llama-cpp-python
 
 ## 🚀 Ejecutar Backend
 ### Ejecuta la API en modo desarrollo con recarga automática
 uvicorn backend.main:app --reload
 
-Servidor local: http://127.0.0.1:8000
+### Servidor local: http://127.0.0.1:8000
 
-Puedes usar Postman, curl o el frontend para probar la API.
+### Puedes usar Postman, curl o el frontend para probar la API.
 
 ## 🌍 Exponer backend con Cloudflared
 
-Para que el frontend desplegado en Vercel pueda comunicarse con tu backend local:
+### Para que el frontend desplegado en Vercel pueda comunicarse con tu backend local:
 
 ### Instalar Cloudflared
 choco install cloudflared -y --force
