@@ -1,8 +1,8 @@
 # 🖥 Backend – Chatbot SGSI
 
-## Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
-## Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
-## Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
+#### Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
+#### Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
+#### Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
 
 ---
 
@@ -37,7 +37,7 @@ python -m unidic download
 ### Text-to-Speech opcional
 pip install git+https://github.com/myshell-ai/MeloTTS.git
 
-### 💡 Nota: Ajusta las dependencias según tus necesidades de procesamiento o TTS.
+#### 💡 Nota: Ajusta las dependencias según tus necesidades de procesamiento o TTS.
 
 ## 3️⃣ Instalar llama-cpp con soporte CUDA
 ### Descarga la versión precompilada de llama-cpp con soporte CUDA 12.8:
@@ -61,9 +61,9 @@ pip install llama-cpp-python
 ### Ejecuta la API en modo desarrollo con recarga automática
 uvicorn backend.main:app --reload
 
-### Servidor local: http://127.0.0.1:8000
+#### Servidor local: http://127.0.0.1:8000
 
-### Puedes usar Postman, curl o el frontend para probar la API.
+#### Puedes usar Postman, curl o el frontend para probar la API.
 
 ## 🌍 Exponer backend con Cloudflared
 
@@ -75,11 +75,11 @@ choco install cloudflared -y --force
 ### Crear túnel público a tu backend local
 cloudflared tunnel --url http://127.0.0.1:8000
 
-### Esto genera una URL pública temporal.
+#### Esto genera una URL pública temporal.
 
-### Configura esta URL en el frontend desplegado para consumir la API.
+#### Configura esta URL en el frontend desplegado para consumir la API.
 
-### ⚠️ La URL cambia cada vez que reinicias el túnel.
+#### ⚠️ La URL cambia cada vez que reinicias el túnel.
 
 ## 🧠 Modelos IA
 
@@ -101,12 +101,12 @@ hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q5_K_M.gguf
 
 ## 📈 Características Técnicas
 
-### Arquitectura backend separada del frontend
-### Soporte GPU (CUDA) y CPU
-### Integración de modelos LLM locales
-### API REST para comunicación con frontend
-### Exposición pública mediante Cloudflared
-### Escalable y modular
+#### Arquitectura backend separada del frontend
+#### Soporte GPU (CUDA) y CPU
+#### Integración de modelos LLM locales
+#### API REST para comunicación con frontend
+#### Exposición pública mediante Cloudflared
+#### Escalable y modular
 
 ## 🔧 Verificación de Sistema
 ### Verificar GPU NVIDIA
