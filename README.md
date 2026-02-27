@@ -60,6 +60,8 @@ python test_gpu.py
 ### 💡 Modo CPU:
 pip install llama-cpp-python
 
+---
+
 ## 🚀 Ejecutar Backend
 
 ### Ejecuta la API en modo desarrollo con recarga automática
