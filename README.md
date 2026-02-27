@@ -23,8 +23,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Actualizar pip
 python -m pip install --upgrade pip
 
-## 2️⃣ Instalar dependencias principales
 
+## 2️⃣ Instalar dependencias principales
 ### Framework web y servidor ASGI
 pip install fastapi uvicorn requests
 
