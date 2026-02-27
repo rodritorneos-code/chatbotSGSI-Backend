@@ -96,6 +96,7 @@ hf download bartowski/Qwen2.5-7B-Instruct-GGUF Qwen2.5-7B-Instruct.gguf --local-
 
 ### También puedes usar modelos Q4 o Q5
 hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q4_K_M.gguf --local-dir ./Qwen2.5-14B-Q4_K_M
+
 hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q5_K_M.gguf --local-dir ./Qwen2.5-14B-Instruct
 
 ## 📈 Características Técnicas
