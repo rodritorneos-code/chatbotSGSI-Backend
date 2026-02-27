@@ -23,6 +23,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### Actualizar pip
 python -m pip install --upgrade pip
 
+---
+
 ## 2️⃣ Instalar dependencias principales
 ### Framework web y servidor ASGI
 pip install fastapi uvicorn requests
@@ -38,6 +40,8 @@ python -m unidic download
 pip install git+https://github.com/myshell-ai/MeloTTS.git
 
 #### 💡 Nota: Ajusta las dependencias según tus necesidades de procesamiento o TTS.
+
+---
 
 ## 3️⃣ Instalar llama-cpp con soporte CUDA
 ### Descarga la versión precompilada de llama-cpp con soporte CUDA 12.8:
@@ -65,6 +69,8 @@ uvicorn backend.main:app --reload
 
 #### Puedes usar Postman, curl o el frontend para probar la API.
 
+---
+
 ## 🌍 Exponer backend con Cloudflared
 
 ### Para que el frontend desplegado en Vercel pueda comunicarse con tu backend local:
@@ -80,6 +86,8 @@ cloudflared tunnel --url http://127.0.0.1:8000
 #### Configura esta URL en el frontend desplegado para consumir la API.
 
 #### ⚠️ La URL cambia cada vez que reinicias el túnel.
+
+---
 
 ## 🧠 Modelos IA
 
@@ -99,6 +107,8 @@ hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q4_K_M.gguf
 
 hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q5_K_M.gguf --local-dir ./Qwen2.5-14B-Instruct
 
+---
+
 ## 📈 Características Técnicas
 
 #### Arquitectura backend separada del frontend
@@ -108,6 +118,8 @@ hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q5_K_M.gguf
 #### Exposición pública mediante Cloudflared
 #### Escalable y modular
 
+---
+
 ## 🔧 Verificación de Sistema
 ### Verificar GPU NVIDIA
 nvidia-smi
@@ -115,8 +127,12 @@ nvidia-smi
 ### Verificar versión CUDA
 nvcc --version
 
+---
+
 ## 📜 Licencia
 Código bajo licencia MIT
+
+---
 
 ## 👨‍💻 Autor
 Rodrigo Alexander Pinto Niño
