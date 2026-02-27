@@ -1,8 +1,8 @@
 # 🖥 Backend – Chatbot SGSI
 
 ## Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
-Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
-Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
+## Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
+## Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
 
 ---
 
