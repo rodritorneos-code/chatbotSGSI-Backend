@@ -75,11 +75,11 @@ choco install cloudflared -y --force
 ### Crear túnel público a tu backend local
 cloudflared tunnel --url http://127.0.0.1:8000
 
-Esto genera una URL pública temporal.
+### Esto genera una URL pública temporal.
 
-Configura esta URL en el frontend desplegado para consumir la API.
+### Configura esta URL en el frontend desplegado para consumir la API.
 
-⚠️ La URL cambia cada vez que reinicias el túnel.
+### ⚠️ La URL cambia cada vez que reinicias el túnel.
 
 ## 🧠 Modelos IA
 
@@ -115,7 +115,7 @@ nvidia-smi
 nvcc --version
 
 ## 📜 Licencia
-Código bajo licencia MIT
+### Código bajo licencia MIT
 
 ## 👨‍💻 Autor
-Rodrigo Alexander Pinto Niño
+### Rodrigo Alexander Pinto Niño
