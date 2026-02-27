@@ -113,12 +113,17 @@ hf download bartowski/Qwen2.5-14B-Instruct-GGUF Qwen2.5-14B-Instruct-Q5_K_M.gguf
 
 ## 📈 Características Técnicas
 
-#### Arquitectura backend separada del frontend
-#### Soporte GPU (CUDA) y CPU
-#### Integración de modelos LLM locales
-#### API REST para comunicación con frontend
-#### Exposición pública mediante Cloudflared
-#### Escalable y modular
+✔ Arquitectura backend separada del frontend
+
+✔ Soporte GPU (CUDA) y CPU
+
+✔ Integración de modelos LLM locales
+
+✔ API REST para comunicación con frontend
+
+✔ Exposición pública mediante Cloudflared
+
+✔ Escalable y modular
 
 ---
 
