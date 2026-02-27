@@ -1,6 +1,6 @@
 # 🖥 Backend – Chatbot SGSI
 
-Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
+## Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
 Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
 Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
 
@@ -9,7 +9,7 @@ Permite exponer la API para consumo del frontend mediante un túnel seguro con *
 # ⚙ Instalación
 
 ## 1️⃣ Crear entorno virtual
-Se recomienda un entorno aislado para gestionar dependencias:
+### Se recomienda un entorno aislado para gestionar dependencias:
 
 ### Crear entorno virtual llamado gpu_env311
 python -m venv gpu_env311
@@ -22,7 +22,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### Actualizar pip
 python -m pip install --upgrade pip
-
 
 ## 2️⃣ Instalar dependencias principales
 ### Framework web y servidor ASGI
