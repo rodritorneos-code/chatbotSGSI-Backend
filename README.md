@@ -1,8 +1,8 @@
 # 🖥 Backend – Chatbot SGSI
 
-#### Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
-#### Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
-#### Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
+Backend del **Chatbot SGSI** orientado a **Sistema de Gestión de Seguridad de la Información (SGSI)**.  
+Desarrollado en **Python** con **FastAPI**, soporte para **GPU (CUDA 12.8)** y ejecución opcional en **CPU**.  
+Permite exponer la API para consumo del frontend mediante un túnel seguro con **Cloudflared**.
 
 ---
 
@@ -70,6 +70,28 @@ uvicorn backend.main:app --reload
 #### Servidor local: http://127.0.0.1:8000
 
 #### Puedes usar Postman, curl o el frontend para probar la API.
+
+---
+
+## 📄 Documentación API – Swagger UI
+
+#### FastAPI genera automáticamente documentación interactiva en:
+
+http://127.0.0.1:8000/docs
+
+<p align="center">
+  <img src="assets/swagger_ui_1.jpeg" alt="Swagger UI - Vista General" width="800"/>
+</p>
+
+<p align="center">
+  <img src="assets/swagger_ui_2.jpeg" alt="Swagger UI - Ejecución de Endpoint" width="800"/>
+</p>
+
+#### Desde esta interfaz se pueden:
+✔ Probar endpoints directamente  
+✔ Visualizar esquemas de request/response  
+✔ Validar parámetros  
+✔ Simular llamadas a la API  
 
 ---
 
